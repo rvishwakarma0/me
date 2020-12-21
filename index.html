@@ -1,98 +1,538 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Profile &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
 
-.bgimg {
-  background: rgb(34,193,195);
-background: -moz-linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(139,190,123,1) 32%, rgba(253,187,45,1) 100%);
-background: -webkit-linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(139,190,123,1) 32%, rgba(253,187,45,1) 100%);
-background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(139,190,123,1) 32%, rgba(253,187,45,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-.heartbeat{-webkit-animation:heartbeat 1.5s ease-in-out infinite;animation:heartbeat 1.5s ease-in-out infinite}
-@-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>rvishwakarma</p>
-  </div>
-  <div class="middle">
-    <h1 class="heartbeat">COMING SOON</h1>
-    <hr>
-    <p id="demo" style="font-size:30px"></p>
-  </div>
-  <div class="bottomleft">
-    <p>you can connect via, Ph: 9719393663 <br>Email: rvishwakarma00786@gmail.com</p>
-  </div>
-</div>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<h1><span>Rajeev Vishwakarma</span></h1>
+							<h3><span>Information Technology Student</span></h3>
+							<p>
+								<!--ul class="fh5co-social-icons">
+									<li><a href="#"><i class="icon-twitter2"></i></a></li>
+									<li><a href="#"><i class="icon-facebook2"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								</ul-->
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Oct 20, 2020 00:00:00").getTime();
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Rajeev Vishwakarma</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+91 9719393663</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">rvishwakarma00786@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">rvishwakarma0.github.io</span></li>
+						<li><span class="first-block">Github:</span><span class="second-block">www.github.com/rvishwakarma0</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">128, Malviya Nagar Rishikesh Dehradun Uttarakhand {249202} </span></li>
+					</ul>
+				</div>
+				<div class="col-md-7">
+					<h2>Career !</h2>
+					<p>Inquisitive, energetic Information Technology student
+						passionate for coding & technology. Committed to
+						learning and self - development so that consistently achieve
+						better results for the organization. Seeking to leverage solid development skills
+						with a focus on collaboration, communication, passion and
+						creativity as a programmer.
+					</p>
+					<!--p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-facebook3"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+						</ul>
+					</p-->
+				</div>
+			</div>
+		</div>
+	</div>
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<!--div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div-->
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelor Of Technology</h3>
+									<span class="company">College Of Engineering Roorkee</span>
+									<span class="company">Uttarakhand Technical University - 2021</span>
+								</div>
+								<div class="timeline-body">
+									<p>Branch : Information Technology</p>
+									<p>Average : 72%</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Intermediate</h3>
+									<span class="company">Kendriya Vidyalaya Rishikesh</span>
+									<span class="company">Central Board Of Secondary Education - 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>Stream : Science with Computer Science</p>
+									<p>Average : 82.4%</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">High School</h3>
+									<span class="company">Kendriya Vidyalaya Rishikesh</span>
+									<span class="company">Central Board Of Secondary Education - 2014</span>
+								</div>
+								<div class="timeline-body">
+									<p>Average : 9.4 CGPA</p>
+								</div>
+							</div>
+						</li>
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Internship/Training</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box ">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">6 weeks training</h3>
+									<span class="company">CETPA infotech pvt. ltd. - 2019</span>
+								</div>
+								<div class="timeline-body">
+									<p>in Python with Django framework</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
-  // Get todays date and time
-  var now = new Date().getTime();
-  
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
-  
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+	<!--div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Design</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+					</div>
 
-</body>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-briefcase"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Branding</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Analytics</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Developent</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Marketing</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Support</h3>
+								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div-->
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Technical Skills</h3>
+					<div class="progress-wrap">
+						<h3><span class="name-left">C</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">C++</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML/CSS</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Django Framework</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">SQL</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Linux</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">OOP</span></h3>	
+					</div>
+
+				</div>
+				<div class="col-md-6">
+					<h3>Soft Skills</h3>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Creativity</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Problem Solving</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Teamwork</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Leadership</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Communication</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Self learning</span></h3>	
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Adaptability</span></h3>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Projects</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center col-padding animate-box">
+					<a href="http://gn8.in" class="work" style="background-image: url(images/proj1.jpg);">
+						<div class="desc">
+							<h3>URL Shortener</h3>
+							<span>It shorts the full URL into a short URL, so that the URLcan be easily shared or used. It is built with the Djangoframework, MySQL database, Alibaba Cloud..etc.</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<a href="https://rvecom.herokuapp.com" class="work" style="background-image: url(images/proj2.jpg);">
+						<div class="desc">
+							<h3>Ecommerce Website​</h3>
+							<span>An ecommerce website with cart functionality withoutlogging in users can start  purchasing and pay usingPayPal. I have worked on the backend. It is built withDjango, Bootstrap and Javascript.</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<a href="https://web-app-todo.herokuapp.com" class="work" style="background-image: url(images/proj3.jpg);">
+						<div class="desc">
+							<h3>Todo App</h3>
+							<span>Users can create notes of their day to day tasks,  uploadrelated pictures and mark it as completed or not.  It'sbuilt with the Django and Bootstrap framework.</span>
+						</div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!--div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Post on Medium</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Photoshoot On The Street</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Surfing at Philippines</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Capture Living On Uderwater</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div--	>
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="#">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+
+			</form>	
+		</div>
+	</div-->
+
+	<!--div id="map" class="fh5co-map"></div-->
+	</div>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
